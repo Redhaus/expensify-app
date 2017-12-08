@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RENDER EMPTY MESSAGE 1`] = `
+<div>
+  <Connect(ExpenseListFilters) />
+  <p>
+    No Expenses
+  </p>
+</div>
+`;
+
+exports[`RENDER EXPENSE LIST WITH EXPENSES 1`] = `
+<div>
+  <Connect(ExpenseListFilters) />
+  <ExpenseListItem
+    amount={195}
+    createdAt={0}
+    description="Gum"
+    id="1"
+    key="1"
+    note=""
+  />
+  <ExpenseListItem
+    amount={1950}
+    createdAt={-345600000}
+    description="Rent"
+    id="2"
+    key="2"
+    note=""
+  />
+  <ExpenseListItem
+    amount={1195}
+    createdAt={345600000}
+    description="Foodie"
+    id="3"
+    key="3"
+    note=""
+  />
+</div>
+`;
