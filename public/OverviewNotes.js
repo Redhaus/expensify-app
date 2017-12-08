@@ -678,7 +678,7 @@ git status //shows untracked files
 git add <filename> // adds files and folders you want
 git add . // ads all files in folder 
 set up .gitignore and put in there what you don't want tracked. 
-
+// -m for message of readable commit reason
 git commit -m "Initial commit" or "bug fixed" or "feature addded"
 
 working state is clean is because all working files are committed to git
