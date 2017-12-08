@@ -681,4 +681,28 @@ set up .gitignore and put in there what you don't want tracked.
 // -m for message of readable commit reason
 git commit -m "Initial commit" or "bug fixed" or "feature addded"
 
-working state is clean is because all working files are committed to git
+// working state is clean is because all working files are committed to git
+
+
+// look for ssh keys
+// // ls -a ~/.ssh
+
+// git hub setup guide
+// https://help.github.com/articles/connecting-to-github-with-ssh/
+
+create ssh keys 
+// -t = type rsa is standard    -b = bit size use 4096 -C sign with email 
+ssh-keygen -t rsa -b 4096 -C "ben.read@redhausdesign.com"
+
+// get ssh agent running
+eval "$(ssh-agent -s)"
+
+// provide the private file to the agent 
+ssh-add ~/.ssh/id_rsa
+
+// copy contents of RSA public file to clipboard 
+pbcopy < ~/.ssh/id_rsa.pub
+
+// make ssh connection to github servers
+ssh -T git@github.com
+
