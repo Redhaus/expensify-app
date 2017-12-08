@@ -16,15 +16,15 @@ import 'react-dates/lib/css/_datepicker.css';
 // store is created from combined reducers return 
 const store = configureStore();
 
-store.dispatch( addExpense({ amount: 10000, description: 'Water Bill', note: 'PAID'}) )
-store.dispatch( addExpense( {description: 'Gas Bill', amount: 5000, note: 'PAST DUE', createdAt: 1000} ))
-store.dispatch( addExpense({ amount: 10095, description: 'Rent', note: 'PAID'}) )
+// store.dispatch( addExpense({ amount: 10000, description: 'Water Bill', note: 'PAID'}) )
+// store.dispatch( addExpense( {description: 'Gas Bill', amount: 5000, note: 'PAST DUE', createdAt: 1000} ))
+// store.dispatch( addExpense({ amount: 10095, description: 'Rent', note: 'PAID'}) )
 
 // store.dispatch( setTextFilter('water') );
 
-console.log(store.getState(), 'store');
+// console.log(store.getState(), 'store');
 
-const state = store.getState();
+// const state = store.getState();
 // console.log(getVisibleExpenses(state.expenses, state.filter));
     
 
