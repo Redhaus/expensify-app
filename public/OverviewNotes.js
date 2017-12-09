@@ -706,3 +706,20 @@ pbcopy < ~/.ssh/id_rsa.pub
 // make ssh connection to github servers
 ssh -T git@github.com
 
+// set up connection to specific repository . git remote repository get ssh link from repo page
+// origin is branch
+git remote add origin git@github.com:Redhaus/expensify-app.git
+
+git remote // show origin
+git remote -v //= for verbose 
+
+// push files to repository -u for upstream, origin is remote name 
+git remote -u origin master
+
+
+// WEBPACK PRODUCTION BUILD////////////////////////
+
+webpack.js.org guides 
+
+// run production version that gives different sources
+yarn run build:prod
