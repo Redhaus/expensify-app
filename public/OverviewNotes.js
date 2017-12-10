@@ -723,3 +723,15 @@ webpack.js.org guides
 
 // run production version that gives different sources
 yarn run build:prod
+
+
+
+// SETUP EXPRESS SERVER ///////////////
+// node server/server.js
+
+
+// SET UP HEROKU FROM CLI/////////////
+heroku --version
+heroku login
+// provide user and password
+heroku create expensify
