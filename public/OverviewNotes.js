@@ -716,6 +716,10 @@ git remote -v //= for verbose
 // push files to repository -u for upstream, origin is remote name 
 git remote -u origin master
 
+//adds and commits 
+git commit -a -m "SetupDev Dependencies and Dist Folder"
+
+git push // sends files up to git master origin that was set
 
 // WEBPACK PRODUCTION BUILD////////////////////////
 
