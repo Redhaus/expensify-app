@@ -735,3 +735,12 @@ heroku --version
 heroku login
 // provide user and password
 heroku create expensify
+
+git push heroku master// takes default master origin repository and adds it to heroku 
+heroku open // takes you to the url
+
+heroku logs // will help trouble shoot error
+
+
+// Yarn production so that dev dependencies are't installed
+yarn install --production
