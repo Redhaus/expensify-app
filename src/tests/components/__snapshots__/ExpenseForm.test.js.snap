@@ -241,7 +241,7 @@ exports[`TEST EXPENSE FORM WITH DATA 1`] = `
       onChange={[Function]}
       placeholder="Amount"
       type="text"
-      value="19.5"
+      value="10"
     />
     <SingleDatePicker
       anchorDirection="left"

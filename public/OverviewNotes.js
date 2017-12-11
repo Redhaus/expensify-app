@@ -748,3 +748,25 @@ heroku logs // will help trouble shoot error
 
 // Yarn production so that dev dependencies are't installed
 yarn install --production
+
+
+
+// ADD TOTAL SELECTOR///////////
+
+create total expenses selector file
+create total expenses test file
+
+
+How it works
+const total = getExpensesTotal(expenses)
+console.log(total) /// all expenses totals added up
+
+
+// test cases 
+// Should return 0 for no expenses
+// should corectly add up single expense
+// should add up multiple expense
+
+
+// Use map and reduce functions 
+// reduce adds up numberes in array of object

@@ -13,7 +13,7 @@ exports[`RENDER EXPENSE LIST WITH EXPENSES 1`] = `
 <div>
   <Connect(ExpenseListFilters) />
   <ExpenseListItem
-    amount={195}
+    amount={101}
     createdAt={0}
     description="Gum"
     id="1"
@@ -21,7 +21,7 @@ exports[`RENDER EXPENSE LIST WITH EXPENSES 1`] = `
     note=""
   />
   <ExpenseListItem
-    amount={1950}
+    amount={1000}
     createdAt={-345600000}
     description="Rent"
     id="2"
@@ -29,7 +29,7 @@ exports[`RENDER EXPENSE LIST WITH EXPENSES 1`] = `
     note=""
   />
   <ExpenseListItem
-    amount={1195}
+    amount={900}
     createdAt={345600000}
     description="Foodie"
     id="3"

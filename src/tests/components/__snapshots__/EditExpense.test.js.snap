@@ -5,7 +5,7 @@ exports[`TEST EDIT RENDER 1`] = `
   <ExpenseForm
     expense={
       Object {
-        "amount": 1195,
+        "amount": 900,
         "createdAt": 345600000,
         "description": "Foodie",
         "id": "3",
